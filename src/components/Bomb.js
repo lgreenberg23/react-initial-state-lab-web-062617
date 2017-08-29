@@ -3,7 +3,7 @@ import React from 'react'
 
 class Bomb extends React.Component{
 	constructor(props){
-		super(props);
+		super();
 		// this.initialCount = props
 
 		this.state = { secondsLeft: props.initialCount }
